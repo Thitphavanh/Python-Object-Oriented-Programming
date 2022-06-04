@@ -4,7 +4,7 @@ class Employee:
     # create method
     def detail(self):
         self.name = 'Hery Phenomenal'
-        self.salary = 20000000
+        self.salary = 2000000
         print('My Employee Infomartion = {}, {}'.format(self.name,self.salary))
 
 
