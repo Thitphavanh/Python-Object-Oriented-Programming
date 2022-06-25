@@ -35,7 +35,6 @@ class Employee:
 
 # create object
 emp1 = Employee('Noy', 4500000, 'Engineer')
-# print('Greate employee in the 2022 years is', emp1.getName())
-# print('He receip salary per month is', emp1.getSalary())
-# print('He work at department of', emp1.getDepartment())
-emp1._showData()
+print('Greate employee in the 2022 years is', emp1.getName())
+print("He's receip salary per month is", emp1.getSalary())
+print("He work at department of", emp1.getDepartment())
