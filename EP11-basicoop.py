@@ -19,25 +19,26 @@ class Employee:
 
 
 class Accounting(Employee):
+    __departmentName = 'Accounting'
+
     def __init__(self):
         pass
 
 
 class Programer(Employee):
+    __departmentName = 'Programer'
+
     def __init__(self):
         pass
 
 
 class Sale(Employee):
+    __departmentName = 'Sale'
+
     def __init__(self):
         pass
 
 
 account = Accounting()
-print(account.companyName)
-
 programer = Programer()
-print(programer.minSalary)
-
 sale = Sale()
-# print(sale.minSalary)
